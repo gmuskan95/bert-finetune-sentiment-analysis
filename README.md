@@ -24,12 +24,12 @@ Please do so by clicking on the link shown on running the cell and pasting it in
 
 1. Download the best model from hw1_model_muskan.zip and mount it on your google drive in 'My Drive'
 2. Please run sections: 
-    1. Install required libraries and load the data
-    2. Defining Model architecture
+    1. *1. Install required libraries and load the data*
+    2. *2. Defining Model architecture*
     
-    Skip the section 3. Fine-tuning BERT to avoid training the model from scratch
+    Skip the section *3. Fine-tuning BERT* to avoid training the model from scratch
     
-3. Go to section 4. Make Predictions and run it to see the F-score on test/train/eval sets
+3. Go to section *4. Make Predictions* and run it to see the F-score on test/train/eval sets
 
 
 ### Method 2: RUN THE ENTIRE NOTEBOOK AGAIN: RE-TRAIN THE MODEL
@@ -55,7 +55,7 @@ OR
 ## LIMITATIONS
 * Due to limitations of RAM and memory on Google Colab, the notebook will take time to fine-tune BERT and predict on the dataset given.
 * BERT is a large model with a lot of parameters, so fine-tuning it takes time.
-* F1-score of the model is dependent on the batch_size and max_seq_len chosen for our model. These two fields are constrainted currently via resources on Google Colab.
+* F1-score of the model is dependent on the batch_size and max_seq_len hyperparameters chosen for our model. These two fields are currently constrainted  via resources accessible on Google Colab.
 
 
 ## NOTE
