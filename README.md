@@ -60,5 +60,5 @@ OR
 
 ## NOTE
 
-* The Colab Notebook is divided into sections based on the overall steps taken: Install required libraries, Load the Data, Define model Architecture, Fine-tuning BERT, Make Predictions.
-* Please find the explanation of each step in comments within each cell
+* The Colab Notebook is divided into sections based on the overall steps taken: Install required libraries and load the data, Define model architecture, Fine-tuning BERT, Make Predictions.
+* Please find the explanation of each step in Text cell before the code cell and/or in comments within each code cell
